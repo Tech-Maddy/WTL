@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Threads - Home</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+
+        .header {
+            background-color: #221f1e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hero-section {
+            background-image: url('https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: rgb(203, 50, 50);
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .hero-section button {
+            background-color: #ff5722;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .category-card {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .category-card img {
+            max-width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            background-color: #ffffff;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .product-image {
+            max-width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+ 
+    <header class="header">
+        <h1>Stylish Threads</h1>
+    </header>
+
+   
+    <section class="hero-section">
+        <h1>Discover Your Style</h1>
+        <p>Shop the latest trends in fashion and make a statement with every outfit.</p>
+        <button>Shop Now</button>
+    </section>
+
+    
+    <section class="categories">
+        <div class="category-card">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRSKknpt2b6sf3NXN-1JhMr9kjhFl6GRDWlk8ofv5eOwFQkXXis7DH8H2FXUoBT5Wx8UWF-K2OjSLmurs1zQSwQrwag7lQ44ZaIaWBvV5xr&usqp=CAE" alt="Men">
+            <h3>Men's Watches</h3>
+        </div>
+        <div class="category-card">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR4_RQUfNLHQjD3Hzj929k8xFIttnB-c5FNjUB6SaP9-EvY_iQZF-jmS4u35qL8ZYhROfKT8C2JTOzXLQKzRzUq-UeNck_LEtA3yKEUAg4&usqp=CAE" alt="Women">
+            <h3>Women's Clothing</h3>
+        </div>
+        <div class="category-card">
+            <img src="https://thehouseofrare.com/cdn/shop/files/CHILOORANGE03368-vmake_89d513bc-3e2a-4671-b930-8a924d44b67b_480x.webp?v=1735887884" alt="Kids">
+            <h3>Kids' Clothing</h3>
+        </div>
+        <div class="category-card">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSZbj14nhtydWc3oWT7Wr527ww28NIp8EPIl7xSKxAjefMHJFVJFT0bsknhOnffzPwUZOWjB1sL3UCWvU6Z8AYrR6aXk0yIRZdlOR9hoJKJ7qrXsnJWSSYU&usqp=CAE" alt="Accessories">
+            <h3>Accessories</h3>
+        </div>
+    </section>
+
+   
+    <section class="products">
+        
+        <div class="product-card">
+            <img src="https://thefoomer.in/cdn/shop/products/jpeg-optimizer_PATP5270.jpg?v=1680164001" alt="Casual Shirt" class="product-image">
+            <h3>Casual Shirt</h3>
+            <p>Price: $25</p>
+        </div>
+        <div class="product-card">
+            <img src="https://images-cdn.ubuy.qa/65dc63038846fa63a55272ee-cargo-pants-men-streetwear-hip-hop-pants.jpg" alt="Denim Jeans" class="product-image">
+            <h3>Denim Jeans</h3>
+            <p>Price: $40</p>
+        </div>
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/47/3c/d2/473cd2beed226c36ad82c739199a707b.jpg" alt="Summer Dress" class="product-image">
+            <h3>Summer Dress</h3>
+            <p>Price: $30</p>
+        </div>
+        <div class="product-card">
+            <img src="https://cdn.shopify.com/s/files/1/0162/2116/files/How_to_wear_winter_coats_men_5.jpg?v=1478240318" alt="Winter Coat" class="product-image">
+            <h3>Winter Coat</h3>
+            <p>Price: $100</p>
+        </div>
+        <div class="product-card">
+            <img src="https://leatherskinshop.com/cdn/shop/articles/leather-jacket-outfits-men.jpg?v=1703195148" alt="Jackets" class="product-image">
+            <h3>Leather Jacket</h3>
+            <p>Price: $120</p>
+        </div>
+        <div class="product-card">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRlur7_zImoRoFoTD7fSdNqSjl7xWwPOdZEPtUtwrMCiP4KJD8ZsCgqC6ruelt3_2Wp_1XaiZmv7M3hIzhtYMADCCjfLq2jYIBfhsNm-vE&usqp=CAE" alt="T-shirts" class="product-image">
+            <h3>Graphic Tee</h3>
+            <p>Price: $20</p>
+        </div>
+        <div class="product-card">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2024/1/376469619/CY/XA/EA/180363037/nike-air-jordan-retro-1-mid-premium-quality-trending-sneaker-shoes-500x500.jpg" alt="Shoes" class="product-image">
+            <h3>Sports Shoes</h3>
+            <p>Price: $80</p>
+        </div>
+        <div class="product-card">
+            <img src="https://veirdo.in/cdn/shop/files/M-9_13_2.jpg?v=1729055818&width=360" alt="Hoodie" class="product-image">
+            <h3>Hoodie</h3>
+            <p>Price: $35</p>
+        </div>
+    </section>
+    <div>
+        
+            <h1>
+                Contact us
+            </h1>
+            <p>Your email </p>
+       <form> 
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Clothing Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            text-align: center;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form id="contactForm" onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Your Name">
+            <div class="error" id="nameError"></div>
+
+            <input type="email" id="email" placeholder="Your Email">
+            <div class="error" id="emailError"></div>
+
+            <input type="text" id="phone" placeholder="Your Phone (10 digits)">
+            <div class="error" id="phoneError"></div>
+
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <div class="error" id="messageError"></div>
+
+            <button type="submit">Submit</button>
+        </form>
+       
+    </div>
+
+    
+    <footer class="footer">
+        <p>&copy; 2025 Stylish Threads. All Rights Reserved. | Privacy Policy | Terms & Conditions</p>
+    </footer>
+
+    <script>
+        function validateForm() {
+            let valid = true;
+
+            // Name validtion
+            let name = document.getElementById("name").value;
+            if (name.trim() === "") {
+                document.getElementById("nameError").innerText = "Name is required";
+                valid = false;
+            } else {
+                document.getElementById("nameError").innerText = "";
+            }
+
+            // Email valiation
+            let email = document.getElementById("email").value;
+            let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email)) {
+                document.getElementById("emailError").innerText = "Enter a valid email";
+                valid = false;
+            } else {
+                document.getElementById("emailError").innerText = "";
+            }
+
+            // Phone nmber validation
+            let phone = document.getElementById("phone").value;
+            let phonePattern = /^[0-9]{10}$/;
+            if (!phonePattern.test(phone)) {
+                document.getElementById("phoneError").innerText = "Enter a valid 10-digit phone number";
+                valid = false;
+            } else {
+                document.getElementById("phoneError").innerText = "";
+            }
+
+            // Messge validation
+            let message = document.getElementById("message").value;
+            if (message.trim() === "") {
+                document.getElementById("messageError").innerText = "Message cannot be empty";
+                valid = false;
+            } else {
+                document.getElementById("messageError").innerText = "";
+            }
+
+            return valid;
+        }
+    </script>
+</body>
+</html>
